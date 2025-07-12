@@ -14,7 +14,7 @@ Este proyecto es una aplicación web que permite a los usuarios buscar película
 
 Puedes ver la aplicación en vivo haciendo clic en el siguiente enlace:
 
-[Visitar Free Movies en Netlify](https://tuproyecto.netlify.app)
+[Visitar Free Movies en Netlify](free-movies-js.netlify.app)
 
 ---
 
