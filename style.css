@@ -1,4 +1,4 @@
-/* CONTENEDOR PRINCIPAL */
+/* Main Container*/
 .container {
   max-width: 800px;
   margin: 2rem auto;
@@ -6,7 +6,7 @@
   text-align: center;
 }
 
-/* INPUT DE BÚSQUEDA */
+/* INPUT SEARCH */
 #searchInput {
   width: 70%;
   max-width: 400px;
@@ -17,7 +17,7 @@
   margin-bottom: 1rem;
 }
 
-/* BOTÓN DE BÚSQUEDA */
+/* Search button */
 #searchButton {
   padding: 0.75rem 1.5rem;
   margin-left: 0.5rem;
@@ -34,7 +34,7 @@
   background-color: #0056b3;
 }
 
-/* RESULTADOS */
+/* RESULTS */
 #results {
   padding: 0 2rem;
   display: grid;
@@ -43,7 +43,7 @@
   text-align: left;
 }
 
-/* PIE DE PÁGINA */
+/* pag footer */
 footer {
   margin-top: 4rem;
   padding: 1.5rem;
@@ -53,7 +53,7 @@ footer {
   font-size: 0.9rem;
 }
 
-/* RESPONSIVO */
+/* RESPONSE*/
 @media (max-width: 600px) {
   #searchInput {
     width: 100%;
@@ -72,7 +72,7 @@ footer {
 
   
 
-  /* Estilos base */
+  /* Style base*/
 body {
   margin: 0;
   font-family: 'Segoe UI', sans-serif;
@@ -165,7 +165,6 @@ nav a:hover {
   line-height: 1.4;
 }
 
-/* Contenedor de resultados con grid */
 #results {
   display: grid;
   grid-template-columns: repeat(auto-fit, minmax(200px, 2fr));
@@ -175,7 +174,7 @@ nav a:hover {
 
 @media (max-width: 600px) {
   .movie-poster {
-    height: 200px; /* Ajustar aún más en pantallas pequeñas */
+    height: 200px;
   }
 
   .movie {
